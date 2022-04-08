@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* ESTILOS PARA LA BARRA DE NAVEGACIÓN COMPLETA (LOGO+BOTONES INICIALES) */
+.barra_navegacion_completa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.barra_navegacion_botones li {
+    list-style: none;
+    margin-right: 25px;
+  }
+  
+
+.contenedor_barranav_titulo{
+    background-color: aliceblue;
+}
+
+.contenedor_barranav_titulo_periodismo{
+    background-color: aliceblue; 
+}
+
+.contenedor_barranav_titulo_mkt{
+    background-color: aliceblue;    
+}
+
+.barra_navegacion_botones {
+    display: flex;
+  }
+
+.barra_navegacion_botones a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagen_logo{
+    margin-left: 30px;
+}
+
+/* ESTILOS PARA LA FOTO, TEXTO Y BOTÓN PRINCIPAL*/
+
+.imagen_principal{
+    margin-left: 36.5%;
+}
+.facundo_villegas{
+    text-align: center;
+    margin-bottom: 15px;
+    color: black; 
+    
+}
+.periodismo_marketing{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    color: black; 
+}
+
+.seccion_foto_texto_boton a{
+    text-decoration: none;
+    background-color: rgb(92, 121, 158);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.botones_pagina_index{
+    width: 50%;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+/* ESTILOS SECCIÓN SOBRE MI */
+
+.sobre_mi h2{
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.texto_sobre_mi{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    border: solid 4px white;
+}
+
+.sobre_mi{
+    background-color: rgba(76, 211, 155, 0.664);
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+/* ESTILOS FOOTER */
+.footer_total{
+    background-color: azure;
+}
+
+.footer_contenido{
+    width: 600px;
+    margin-left: 27%;    
+}
+
+.footer_contenido ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* PÁGINA "PERIODISMO" */
+
+.Contenedor_total_periodismo
+{background-color: azure;
+}
+
+.Titulo_pagina_periodismo
+{   text-align: center;
+    margin-top: 0;
+    color: black;
+    padding-top: 40px;
+}
+
+.Experiencia_laboral_periodismo
+{   width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;   
+}
+
+
+.Experiencia_academica_periodismo
+{   width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-bottom: 50px;   
+}
+
+.Titulo_seccion1_periodismo
+{    text-align: center
+}
+
+.identificadores_periodismo
+{   display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.identificador_puesto
+{   background-color: aquamarine;
+    padding: 15px 35px;
+    border-radius: 15px;
+}
+
+.identificador_tiempo_trabajo{
+    background-color: aquamarine;
+    padding: 15px 35px;
+    border-radius: 15px;
+}
+
+
+.identificador_entidad{
+    background-color: aquamarine;
+    padding: 15px 35px;
+    border-radius: 15px;
+}
+
+.informacion_periodismo1
+{   width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.informacion_periodismo2
+{   width: 70%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.informacion_periodismo3
+{   width: 70%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.informacion_periodismo1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background-color: rgba(42, 202, 90, 0.726)
+}
+
+.informacion_periodismo2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background-color: rgba(149, 179, 45, 0.726)
+}
+
+.informacion_periodismo3 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background-color: rgba(206, 154, 43, 0.726)
+}
+
+.columnista_deportivo
+{
+    margin-right: 70px;    
+}
+
+.videos_contenido_periodismo
+{   width: 70%;
+    background-color: rgba(97, 138, 50, 0.623);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.videos_contenido_periodismo h3
+{   text-align: center;
+    padding-top: 15px;
+}
+
+.contenedor_contenidos_periodismo
+{   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.video1_periodismo
+{   margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.video2_periodismo
+{   margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+/* ESTILOS FOOTER */
+.footer_total_periodismo{
+    background-color: aliceblue;
+}
+.footer_contenido_periodismo{
+    width: 600px;
+    margin-left: 27%;
+    }
+
+.footer_contenido_periodismo ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.identificador_puesto_titulo
+{   background-color: aquamarine;
+    padding: 15px 35px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+/* Estilos página Marketing Digital */
+
+
+
+.Titulo_seccion1_periodismo
+{   text-align: center;
+    margin-top: 65px;
+}
+
+
+.especializacion_mkt_digital
+{   margin-left: -75px;
+}
+
+.publicidad_en_redes
+{   margin-left: -85px;
+}
+
+.Titulo_seccion1_mkt
+{   text-align: center;
+    margin-top:45px;
+}
+
+.footer_total_mkt{
+    background-color: aliceblue;
+}
+
+.footer_contenido_mkt{
+    width: 600px;
+    margin-left: 27%;
+    margin-top: 25px;
+}
+
+.footer_contenido_mkt ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILOS CV EXTENDIDO */
+.Contenedor_cv_extendido
+{   width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articulo_cv
+{   border: dotted 5px rgb(125, 155, 211);   
+}
+
+.articulo_cv p{
+    margin: 10px;
+}
+
+.Titulo_cv
+{   text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: 35px;
+}
+
+.Subtitulo_cv
+{   margin-bottom: 15px;
+}
+
+/* ESTILOS PARA PÁGINA DE CONTACTO */
+
+.contenedor_total_contacto
+{   width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor_total_contacto h1
+{   text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.contacto_formulario1
+{   margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.Preguntas_formulario1{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.botones_formulario1
+{   margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.contenedor_preguntas_formulario2
+{   margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* GRID MKT DIGITAL */
+
+.grid_contenedor_mktdigital
+{   
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(8,1fr);
+    border: 3px solid green;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:palegreen;
+}
+
+.titulo_mkt
+{
+    
+    grid-column: 3/5;
+    grid-row: 1/2;
+    text-align: center;
+    
+}
+
+.subtitulo_mkt
+{
+   
+    grid-column: 3/5;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.item1_mkt
+{
+    
+    grid-column: 1/2;
+    grid-row: 2/5;
+    background-image:url(/Imágenes/GridGoogleAds.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+        
+}
+
+.item2_mkt
+{
+    grid-column: 2/3;
+    grid-row: 2/6;
+    background-image: url(/Imágenes/GridMailchimp2.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.item3_mkt
+{
+    
+    grid-column: 3/4;
+    grid-row: 3/6;
+    background-image: url(/Imágenes/GridPhotoshop.jpg);    
+    background-size: cover;
+    background-position-x: center ;
+}
+
+.item4_mkt
+{
+    
+    grid-column: 4/6;
+    grid-row: 3/6;
+    background-image: url(/Imágenes/LogoAudition.png);
+    background-size: 675px 350px;
+    background-position-x: center;
+    background-position-y: center;
+    
+
+}
+
+.item5_mkt
+{
+    
+    background-image: url(/Imágenes/LogoPremiere.png);
+    grid-column: 6/7;
+    grid-row: 2/9;
+    background-size: 80px 100px;
+    background-position-x: center;
+}
+
+.item6_mkt
+{
+    background-image: url(/Imágenes/GridFacebookAds.png);
+    grid-column: 1/2;
+    grid-row: 5/9;
+    background-size: 230px;
+    background-position: center;
+}
+
+.item7_mkt
+{
+    background-image: url(/Imágenes/GridWordpress}.jpg);
+    grid-column: 2/4;
+    grid-row: 6/9;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.item8_mkt
+{
+    background-image: url(/Imágenes/GridWIX.png);
+    grid-column: 4/6;
+    grid-row: 6/9;
+    background-size: 400px 250px;
+    background-position-y: center;
+    background-position-x: center;
+}   
+
+/* RESPONSIVE PARA TAMAÑOS MÁS CHICOS */

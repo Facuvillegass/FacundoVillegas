@@ -1,0 +1,1126 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* ESTILOS HEADER INDEX*/
+
+.barra_navegacion_completa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.barra_navegacion_botones li {
+    
+    list-style: none;
+    margin-right: 25px;
+    
+  }
+  
+
+.contenedor_barranav_titulo{
+    background-color: aliceblue;
+}
+
+.contenedor_barranav_titulo_periodismo{
+    background-color: aliceblue; 
+}
+
+.contenedor_barranav_titulo_mkt{
+    background-color: aliceblue;    
+}
+
+.barra_navegacion_botones {
+    display: flex;
+    
+    
+  }
+
+.barra_navegacion_botones a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.imagen_logo{
+    margin-left: 30px;
+}
+
+/* ESTILOS MAIN INDEX */
+
+
+
+.grid_contenedor_index
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    height: 82vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:palegreen;
+}
+
+.titulo_index
+{
+    grid-column: 2/6;
+    grid-row: 1/2;
+    text-align: center;
+    padding: 0px;;
+}
+.foto_principal
+{   
+    grid-column: 2/6;
+    grid-row: 2/5;
+    background-image: url(../Imágenes/foto_perfil.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.subtitulo_index
+{
+    grid-column: 2/6;
+    grid-row: 5/6;
+    text-align: center;
+}
+.boton1_index
+{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    text-decoration: none;
+    background-color: rgb(92, 121, 158);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boton2_index
+{
+    grid-column:4/6 ;
+    grid-row: 6/7;  
+    text-decoration: none;
+    background-color: rgb(92, 121, 158);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;  
+    text-align: center;
+}
+
+/* ESTILOS MAIN SECCIÓN SOBRE MI INDEX */
+
+.grid_contenedor_sobre_mi
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,50px);
+    gap: 10px;
+    padding: 10px;
+    height: 30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.grid_contenedor_sobre_mi div
+{
+    
+    margin-top: 50px;
+}
+
+.titulo_index_sobre_mi
+{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    text-align: center;
+    padding: 0px;;
+}
+
+.texto_sobre_mi
+{
+    grid-column: 2/5;
+    grid-row: 2/6;
+    text-align: center;
+    padding: 0px;;
+}
+
+
+.footer_total{
+    background-color: azure;
+}
+
+.footer_contenido{
+    width: 600px;
+    margin-left: 27%;    
+}
+
+.footer_contenido ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* RESPONSIVE INDEX */
+
+@media screen and (max-width: 600px) 
+{   
+    .grid_contenedor_sobre_mi
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,50px);
+    gap: 10px;
+    padding: 10px;
+    height: 50%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    .barra_navegacion_completa
+    {
+        justify-content: center;
+    }
+
+    .footer_contenido ul{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 40%;
+    }
+
+    .footer_contenido{
+        width: 80%;
+            
+    }
+
+    .barra_navegacion_botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+      }
+
+
+      
+    
+    .barra_navegacion_botones li 
+        {
+        list-style: none;
+        margin-right: 10px;
+        }
+
+    .barra_navegacion_botones li a 
+        {
+        size: 10px;
+        }
+    
+    .boton1_index
+        {
+        grid-column: 1/4;
+        }
+
+    .boton2_index
+            {
+            grid-column:4/7 ;
+            }
+
+            
+    
+    .item0_index
+    {
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px)
+{   
+
+    .grid_contenedor_sobre_mi
+    {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(2,50px);
+        gap: 10px;
+        padding: 10px;
+        height: 50%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .footer_contenido ul{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 40%;
+    }
+
+    .footer_contenido{
+        width: 80%;
+        margin-top: 25px;
+            
+    }
+    
+    .boton1_index
+        {
+        grid-column: 1/4;
+        }
+
+    .boton2_index
+        {
+        grid-column:4/7 ;
+        }
+
+    
+}
+
+@media screen and (min-width: 1024)
+{
+    .grid_contenedor_sobre_mi
+        {
+        height: 60vh;
+        }
+
+}
+
+/* ESTILOS PÁGINA PERIODISMO */
+
+/* HEADER PERIODISMO */
+
+.Grid_Contenedor_total_periodismo
+{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr);
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.Titulo_pagina_periodismo
+{
+    grid-column: 3/7;
+    grid-row: 1/2;
+}
+
+.subTitulo_pagina_periodismo
+{   
+    padding-top: 2rem;
+    grid-column: 3/7;
+    grid-row: 2/3;
+}
+
+
+.identificador_entidad
+{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: lightcyan;
+}
+
+.identificador_puesto
+{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    background-color: lightcyan;
+}
+
+.identificador_tiempo_trabajo
+{
+    grid-column: 6/8;
+    grid-row: 3/4;
+    background-color: lightcyan;
+}
+
+.radio_sucesos
+{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-color: lightgrey;
+}
+
+.periodista_deportivo
+{
+    grid-column: 4/6;
+    grid-row: 4/5;
+    background-color: lightgrey;
+}
+
+.tiempo_sucesos
+{    
+grid-column: 6/8;
+    grid-row: 4/5;
+    background-color: lightgrey;
+}
+
+.canal_26
+{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    background-color: lightgray;
+}
+
+.conductor_noticiero
+{
+    grid-column: 4/6;
+    grid-row: 5/6;
+    background-color: lightgray;
+}
+
+.siete_meses
+{
+    grid-column: 6/8;
+    grid-row: 5/6;
+    background-color: lightgray;
+}
+
+.kzo
+{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    background-color: lightgrey;
+}
+
+.columnista_deportivo
+{
+    grid-column: 4/6;
+    grid-row: 6/7;
+    background-color: lightgrey;
+    
+}
+
+.ocho_meses
+{
+    grid-column: 6/8;
+    grid-row: 6/7;
+    background-color: lightgrey;
+}
+
+.video1_periodismo
+{   
+    padding-top: 2rem;
+    grid-column: 2/5;
+    grid-row: 7/9;
+}
+
+.video2_periodismo
+{   
+    padding-top: 2rem;
+    grid-column: 5/8;
+    grid-row: 7/9;
+}
+
+.footer_total_periodismo{
+    background-color: azure;
+}
+
+.footer_contenido_periodismo{
+    width: 600px;
+    margin-left: 27%;    
+}
+
+.footer_contenido_periodismo ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* PERIODISMO RESPONSIVE*/
+
+@media screen and (max-width: 600px) 
+{ 
+    .Grid_Contenedor_total_periodismo
+{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr);
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+  
+    
+
+}
+    .video1_periodismo
+    {   
+        padding-top: 2rem;
+        grid-column: 2/4;
+        grid-row: 7/9;
+        
+        
+    }
+    
+    .video2_periodismo
+    {   
+        padding-top: 2rem;
+        grid-column: 2/4;
+        grid-row: 9/11;
+        
+    }
+
+    .footer_contenido_periodismo ul{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 40%;
+    }
+
+    .footer_contenido_periodismo{
+        width: 80%;
+            
+    }
+
+    .identificador_entidad
+{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: lightcyan;
+    font-size: 12px;
+}
+
+.identificador_puesto
+{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    background-color: lightcyan;
+    font-size: 12px;
+}
+
+.identificador_tiempo_trabajo
+{
+    grid-column: 6/8;
+    grid-row: 3/4;
+    background-color: lightcyan;
+    font-size: 12px;
+}
+
+.radio_sucesos
+{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+
+.periodista_deportivo
+{
+    grid-column: 4/6;
+    grid-row: 4/5;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+
+.tiempo_sucesos
+{    
+grid-column: 6/8;
+    grid-row: 4/5;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+
+.canal_26
+{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    background-color: lightgray;
+    font-size: 12px;
+}
+
+.conductor_noticiero
+{
+    grid-column: 4/6;
+    grid-row: 5/6;
+    background-color: lightgray;
+    font-size: 12px;
+}
+
+.siete_meses
+{
+    grid-column: 6/8;
+    grid-row: 5/6;
+    background-color: lightgray;
+    font-size: 12px;
+}
+
+.kzo
+{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+
+.columnista_deportivo
+{
+    grid-column: 4/6;
+    grid-row: 6/7;
+    background-color: lightgrey;
+    font-size: 12px;
+    
+}
+
+.ocho_meses
+{
+    grid-column: 6/8;
+    grid-row: 6/7;
+    background-color: lightgrey;
+    font-size: 12px;
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px)
+{
+    .footer_contenido_periodismo ul{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 40%;
+    }
+
+    .footer_contenido_periodismo{
+        width: 80%;
+            
+    }
+    .barra_navegacion_botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+      }
+
+      .barra_navegacion_completa
+      {
+          justify-content: center;
+      }
+      
+    
+    .barra_navegacion_botones li 
+        {
+        list-style: none;
+        margin-right: 10px;
+        }
+
+    .barra_navegacion_botones li a 
+        {
+        size: 10px;
+        }
+        .video1_periodismo
+    {   
+        padding-top: 2rem;
+        grid-column: 3/6;
+        grid-row: 7/9;
+        
+        
+    }
+    
+    .video2_periodismo
+    {   
+        padding-top: 2rem;
+        grid-column: 3/6;
+        grid-row: 9/11;
+        
+    }
+}
+
+/* MARKETING DIGITAL */
+
+.grid_contenedor_mktdigital
+{   
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(8,1fr);
+    border: 3px solid green;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:palegreen;
+}
+
+.titulo_mkt
+{
+    
+    grid-column: 3/5;
+    grid-row: 1/2;
+    text-align: center;
+    
+}
+
+.subtitulo_mkt
+{
+   
+    grid-column: 3/5;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.item1_mkt
+{
+    
+    grid-column: 1/2;
+    grid-row: 2/5;
+    background-image:url(../Imágenes/GridGoogleAds.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+        
+}
+
+.item2_mkt
+{
+    grid-column: 2/3;
+    grid-row: 2/6;
+    background-image: url(../Imágenes/GridMailchimp2.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.item3_mkt
+{
+    
+    grid-column: 3/4;
+    grid-row: 3/6;
+    background-image: url(../Imágenes/GridPhotoshop.jpg);    
+    background-size: cover;
+    background-position-x: center ;
+}
+
+.item4_mkt
+{
+    
+    grid-column: 4/6;
+    grid-row: 3/6;
+    background-image: url(../Imágenes/LogoAudition.png);
+    background-size: 675px 350px;
+    background-position-x: center;
+    background-position-y: center;
+    
+
+}
+
+.item5_mkt
+{
+    
+    background-image: url(../Imágenes/LogoPremiere.png);
+    grid-column: 6/7;
+    grid-row: 2/9;
+    background-size: 80px 100px;
+    background-position-x: center;
+}
+
+.item6_mkt
+{
+    background-image: url(../Imágenes/GridFacebookAds.png);
+    grid-column: 1/2;
+    grid-row: 5/9;
+    background-size: 230px;
+    background-position: center;
+}
+
+.item7_mkt
+{
+    background-image: url(../Imágenes/GridWordpress}.jpg);
+    grid-column: 2/4;
+    grid-row: 6/9;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.item8_mkt
+{
+    background-image: url(../Imágenes/GridWIX.png);
+    grid-column: 4/6;
+    grid-row: 6/9;
+    background-size: 400px 250px;
+    background-position-y: center;
+    background-position-x: center;
+}   
+
+.Grid_Contenedor_mktdigital2
+{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2fr 2fr 1fr 1fr 1fr);
+    border: solid 3px lightseagreen;
+    gap: 10px;
+    padding: 10px;
+    padding-bottom: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcyan;
+    text-align: center;
+    align-items: center;
+}
+
+.Titulo_pagina_mkt
+{
+    grid-column:1/9 ;
+    grid-row: 1/2;
+    font-size: 20px;
+}
+
+.subTitulo_pagina_mkt
+{
+    grid-column: 3/7;
+    grid-row: 2/3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.identificador_entidad_mkt
+{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: lightgreen;
+}
+
+.identificador_titulomkt
+{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    background-color: lightgreen;
+}
+
+.identificador_estadocursada
+{
+    grid-column: 6/8;
+    grid-row: 3/4;
+    background-color: lightgreen;
+}
+
+.universidad_austral
+{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-color: lightblue;
+}
+
+.especializacion
+{
+    grid-column: 4/6;
+    grid-row: 4/5;
+    
+    background-color: lightblue;
+
+}
+
+.finalizado
+{
+    grid-column: 6/8;
+    grid-row: 4/5;
+    
+    background-color: lightblue;
+
+}
+
+.universidad_austral2
+{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    
+    background-color: lightblue;
+
+}
+
+
+.publicidad_redes
+{
+    grid-column: 4/6;
+    grid-row: 5/6;
+    background-color: lightblue;
+
+}
+
+.finalizado2
+{
+    grid-column: 6/8;
+    grid-row: 5/6;
+    background-color: lightblue;
+}
+
+/* RESPONSIVE MKT DIGITAL */
+
+@media screen and (max-width: 600px) 
+
+{
+    
+        .Titulo_pagina_mkt
+        {
+            grid-column:1/9 ;
+            grid-row: 1/2;
+            font-size: 18px;
+        }
+
+        .identificador_entidad_mkt
+{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: lightgreen;
+    font-size: 12px;
+}
+
+.identificador_titulomkt
+{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    background-color: lightgreen;
+    font-size: 12px;
+}
+
+.identificador_estadocursada
+{
+    grid-column: 6/8;
+    grid-row: 3/4;
+    background-color: lightgreen;
+    font-size: 10px;
+}
+
+.universidad_austral
+{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-color: lightblue;
+    font-size: 10px;
+}
+
+.especializacion
+{
+    grid-column: 4/6;
+    grid-row: 4/5;
+    
+    background-color: lightblue;
+    font-size: 9px;
+
+}
+
+.finalizado
+{
+    grid-column: 6/8;
+    grid-row: 4/5;
+    
+    background-color: lightblue;
+    font-size: 12px;
+
+}
+
+.universidad_austral2
+{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    
+    background-color: lightblue;
+    font-size: 10px;
+}
+
+
+.publicidad_redes
+{
+    grid-column: 4/6;
+    grid-row: 5/6;
+    background-color: lightblue;
+    font-size: 10px;
+
+}
+
+.finalizado2
+{
+    grid-column: 6/8;
+    grid-row: 5/6;
+    background-color: lightblue;
+    font-size: 12px;
+}
+.item1_mkt
+{
+    
+    grid-column: 1/2;
+    grid-row: 2/5;
+    background-image:url(../Imágenes/GridGoogleAds.jpg);
+    background-size: 40px 40px;
+    background-position-y: center;
+    background-position-x: center;
+        
+}
+
+.item2_mkt
+{
+    grid-column: 2/3;
+    grid-row: 2/6;
+    background-image: url(../Imágenes/GridMailchimp2.jpg);
+    background-size: 40px 40px;
+    background-position-x: center;
+}
+
+.item3_mkt
+{
+    
+    grid-column: 3/4;
+    grid-row: 3/6;
+    background-image: url(../Imágenes/GridPhotoshop.jpg);    
+    background-size: 40px 40px;
+    background-position-x: center ;
+}
+
+.item4_mkt
+{
+    
+    grid-column: 4/6;
+    grid-row: 3/6;
+    background-image: url(../Imágenes/LogoAudition.png);
+    background-size: 100px 100px;
+    background-position-x: center;
+    background-position-y: center;
+    
+
+}
+
+.item5_mkt
+{
+    
+    background-image: url(../Imágenes/LogoPremiere.png);
+    grid-column: 6/7;
+    grid-row: 2/9;
+    background-size: 40px 40px;
+    background-position-x: center;
+}
+
+.item6_mkt
+{
+    background-image: url(../Imágenes/GridFacebookAds.png);
+    grid-column: 1/2;
+    grid-row: 5/9;
+    background-size: 40px 40px;
+    background-position: center;
+}
+
+.item7_mkt
+{
+    background-image: url(../Imágenes/GridWordpress}.jpg);
+    grid-column: 2/4;
+    grid-row: 6/9;
+    background-size: 60px 60px;
+    background-position-y: center;
+}
+
+.item8_mkt
+{
+    background-image: url(../Imágenes/GridWIX.png);
+    grid-column: 4/6;
+    grid-row: 6/9;
+    background-size: 100px 100px;
+    background-position-y: center;
+    background-position-x: center;
+}   
+
+}
+
+/* ESTILOS CV EXTENDIDO */
+
+.Contenedor_cv_extendido
+{   width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articulo_cv
+{   border: dotted 5px rgb(125, 155, 211);   
+}
+
+.articulo_cv p{
+    margin: 10px;
+}
+
+.Titulo_cv
+{   text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: 35px;
+}
+
+.Subtitulo_cv
+{   margin-bottom: 15px;
+}
+
+/* ESTILOS CONTACTO */
+
+.contenedor_total_contacto
+{   
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor_total_contacto h1
+{   text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.contacto_formulario1
+{   margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.Preguntas_formulario1{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.botones_formulario1
+{   margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.contenedor_formulario2
+{   
+    width: 70%;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    
+}
+
+@media screen and (max-width: 600px) 
+
+{
+    .si_te_interesan{
+        font-size: 12px;
+    }
+}
