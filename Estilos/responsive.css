@@ -85,7 +85,23 @@
     background-image: url(../Imágenes/foto_perfil.png);
     background-repeat: no-repeat;
     background-position-x: center;
+    animation-name: girarEjeX;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
 }
+
+@keyframes girarEjeX{
+    from 
+    {
+        transform: rotateY(0deg);
+    }
+    to 
+    {
+        transform: rotateY(360deg);
+    }
+}
+
 .subtitulo_index
 {
     grid-column: 2/6;
